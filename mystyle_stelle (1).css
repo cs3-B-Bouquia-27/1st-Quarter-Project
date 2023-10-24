@@ -1,0 +1,70 @@
+@import url(https://eng.fontke.com/font/20100435/download/);
+@import url(https://cdn1.maisfontes.com/temp/agrandir-tight-maisfontes.be67.zip);
+@font-face {
+    font-family: "Malibu Ring";
+    src: url(malibu-ring_1.ttf) format('opentype');
+}
+@font-face {    
+    font-family: "Agrandir";
+    src: url(agrandir-tight_1.otf) format('opentype');
+}
+.Stelle_1{
+    position: left center;
+    appearance:fixed;
+    height:1069px;
+    width:742px;
+    float:left;
+    z-index: 1;
+}
+.Stelle_Name {
+    display:inline-block;
+    font-family: "Malibu Ring", sans-serif ;
+    font-size: 100px;
+    text-shadow: 5px 5px 71px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    margin-right: 340px;
+    margin-left: -100px;
+	margin-top: -25px;
+	width: 25%;
+}
+.stelle_dc1 {
+    font-family: "Agrandir", 'sans-serif';
+    position: absolute;
+    top: 300px;
+    margin-left: 520px;
+    text-align: right;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 10px ;   
+    margin-bottom:-30px;
+    float:right;
+	margin-top: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}   
+.stelle_dc2 {
+    font-family: "Agrandir", 'sans-serif';
+    position: absolute;
+    top: 550px;
+    margin-left: 470px;
+    text-align: right;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 10px ;   
+    margin-bottom:-10px;
+    float:right;
+	margin-top: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.stelle_pics {
+    width: 100%;
+
+}
+.back {
+    font-family: "Copperplate", 'Copperplate Gothic Regular';
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    letter-spacing: 10px;
+	display:block;
+}
